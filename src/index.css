@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'AlegreyaSC';
+  src: url('./fonts/AlegreyaSC-Regular.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;  
+}
+
+@font-face {
+  font-family: 'AlegreyaSC';
+  src: url('./fonts/AlegreyaSC-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'AlegreyaSC', system-ui, sans-serif;
+  background: #f9f9f9;
+  color: #222;
+}
+
+/* 3. Заголовки — тоже этим шрифтом */
+h1, h2, h3 {
+  font-family: 'AlegreyaSC', serif;
+  font-weight: 400;
+}

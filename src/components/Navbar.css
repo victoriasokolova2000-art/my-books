@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;   
+  font-family: 'AlegreyaSC', serif;
+  gap: 20px;
+  padding: 20px;
+  background-color: #3c1213;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: #9daed7;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.2s;
+  padding-bottom: 4px;         
+}
+
+.navbar__link:hover {
+  color: #eee0cb;
+}
+
+.navbar__link--active {
+  color: #eee0cb;
+  border-bottom: 2px solid #eee0cb;
+}

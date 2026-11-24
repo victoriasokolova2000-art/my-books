@@ -1,0 +1,24 @@
+.rating-container {
+  display: flex;
+  gap: 1px;
+  align-items: center;
+ 
+}
+
+.star-icon {
+  width: 25px;
+  height: 25px;
+  fill: #e0e0e0;
+  transition: fill 0.2s;
+}
+
+.star-icon--active {
+  fill: #b8860b;
+}
+
+@media (max-width: 480px) {
+  .star-icon {
+    width: 11px;
+    height: 11px;
+  }
+}

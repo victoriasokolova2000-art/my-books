@@ -1,0 +1,61 @@
+.author-detail {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.author-detail > a {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: #666;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.author-detail > a:hover {
+  color: #3c1213;
+  text-decoration: underline;
+}
+
+/* Контейнер с текстом */
+.author-detail__content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.author-detail__title {
+  font-family: 'AlegreyaSC', serif;
+  font-size: 42px;
+  color: #3c1213;
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.author-detail__bio {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+  text-align: center;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.author-detail__title-books {
+  font-family: 'AlegreyaSC', serif;
+  font-size: 28px;
+  color: #3c1213;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 24px;
+}
+
+.author-detail__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 24px;
+}
